@@ -1,0 +1,62 @@
+body {
+    background-color: darkturquoise;
+    text-align: center;
+    color: black;
+    font-size:25px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:cursive;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+h3{
+font-family: cursive
+}
+.line{
+    width:50px;
+    height: 5px;
+    background-color: blue;
+    margin: auto;
+}
+.menu{
+ list-style:none;
+ position: absolute;
+ font-family: cursive;
+ top: 10px;
+ right: 30px;
+ cursor:pointer;
+ z-index: 10;
+ 
+}
+.links{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 25px;
+    float:left;
+    color:blueviolet
+}
+.links:hover{
+    background-color:red;
+}
+#1st{
+ background-color: aquamarine;
+}
+#2nd{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: monospace;
+}
+img{
+    transition: transform.2s; 
+}
+img:hover{
+    transform: scale(0.9);
+}
